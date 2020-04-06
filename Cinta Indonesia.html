@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dean</title>
+  </head>
+  <style media="screen">
+    *{
+    box-sizing: border-box;
+    }
+
+    [class*="col-"] { float: left; padding: 15px;}
+    [class*="col-"] { width: 100%;}
+    @media only screen and (min-width: 600px) {
+      .col-s-1 {width: 8.33%;}
+      .col-s-2 {width: 16.66%;}
+      .col-s-3 {width: 25%;}
+      .col-s-4 {width: 33.33%;}
+      .col-s-5 {width: 41.66%;}
+      .col-s-6 {width: 50%;}
+      .col-s-7 {width: 58.33%;}
+      .col-s-8 {width: 66.66%;}
+      .col-s-9 {width: 75%;}
+      .col-s-10 {width: 83.33%;}
+      .col-s-11 {width: 91.66%;}
+      .col-s-12 {width: 100%;}
+      }
+      @media only screen and (min-width: 768px){
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+      }
+      .bg{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("bendera.jpg") no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+      }
+      .judul{
+          color: red;
+          margin-top: 100px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .image{
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          margin: 0 auto;
+          border: 20px double black;
+      }
+      .container{
+          width: 90%;
+          margin: 0 auto;
+      }
+
+      .box{
+          text-align: center;
+      }
+      .btn-red{padding: 10px; background: #fc0202; color: #fff;}
+      .btn-blue{padding: 10px; background: #02496d; color: #fff;}
+      .solid{border-style: solid; border-width: 4px; border-color: black;}
+      .round{border-radius: 20px;}
+
+      .desc{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 20px;
+      }
+
+      .footer{
+          background:gray ;
+          color: honeydew;
+      }
+  </style>
+  <body>
+    <div class="bg col-12">
+      <h1 class="judul" align="center">Pemandangan Alam di Indonesia</h1>
+    </div>
+    <div class="container">
+      <h2 class="btn-blue round" align="center">Gunung</h2>
+      <div class="box col-3 col-s-6">
+        <img src="semeru.jpg" class="image">
+        <p class="btn-red solid">Gunung Semeru</p>
+        <p class="desc">
+          Gunung Semeru atau Gunung Meru adalah sebuah gunung berapi kerucut di Jawa Timur,
+          Indonesia. Gunung Semeru merupakan gunung tertinggi di Pulau Jawa, dengan puncaknya
+          Mahameru, 3.676 meter dari permukaan laut (mdpl). Gunung Semeru juga merupakan
+          gunung berapi tertinggi ketiga di Indonesia setelah Gunung Kerinci di Sumatra dan
+          Gunung Rinjani di Nusa Tenggara Barat.
+        </p>
+      </div>
+      <div class="box col-3 col-s-6">
+        <img src="merapi.jpg" class="image">
+        <p class="btn-red solid">Gunung Merapi</p>
+        <p class="desc">
+          Gunung Merapi (ketinggian puncak 2.930 mdpl, per 2010) adalah gunung berapi di bagian
+          tengah Pulau Jawa dan merupakan salah satu gunung api teraktif di Indonesia. Lereng sisi
+          selatan berada dalam administrasi Kabupaten Sleman, Daerah Istimewa Yogyakarta, dan sisanya
+          berada dalam wilayah Provinsi Jawa Tengah, yaitu Kabupaten Magelang di sisi barat, Kabupaten
+          Boyolali di sisi utara dan timur, serta Kabupaten Klaten di sisi tenggara.
+          Kawasan hutan di sekitar puncaknya menjadi kawasan Taman Nasional Gunung Merapi sejak tahun 2004.
+        </p>
+      </div>
+      <div class="box col-3 col-s-6">
+        <img src="arjuno.jpg" class="image">
+        <p class="btn-red solid">Gunung Arjuno</p>
+        <p class="desc">
+          Gunung Arjuno (terkadang dieja Gunung Arjuna) adalah sebuah gunung berapi kerucut (istirahat) di
+          Jawa Timur, Indonesia dengan ketinggian 3.339 m dpl. Gunung Arjuno secara administratif terletak
+          di perbatasan Kota Batu, Kabupaten Malang, dan Kabupaten Pasuruan dan berada di bawah pengelolaan
+          Taman Hutan Raya Raden Soerjo. Gunung Arjuno merupakan gunung tertinggi kedua di Jawa Timur setelah
+          Gunung Semeru, serta menjadi yang tertinggi keempat di Pulau Jawa. Biasanya gunung ini dicapai dari
+          tiga titik pendakian yang cukup dikenal yaitu dari Lawang, Tretes dan Batu. Nama Arjuno berasal dari
+          salah satu tokoh pewayangan Mahabharata, Arjuna.
+        </p>
+      </div>
+      <div class="box col-3 col-s-6">
+        <img src="buthak.jpg" class="image">
+        <p class="btn-red solid">Gunung Butak</p>
+        <p class="desc">
+          Gunung Butak adalah gunung stratovolcano yang terletak di Kabupaten Malang, Jawa Timur, Indonesia.
+          Gunung Butak terletak berdekatan dengan Gunung Kawi. Tidak diketemukan catatan sejarah atas erupsi
+          dari Gunung Butak sampai saat ini.[1] Gunung ini berada pada posisi -7,922566˚ dan 112,451688˚ dengan
+          ketinggial 2.868 mdpl(9,409 ft).
+        </p>
+      </div>
+      <div class="col-12">
+            <h2 class="btn-blue round" align="center">Pantai</h2>
+            <div class="box col-s-3 col-s-6">
+                <img src="parangtritis.jpg" class="image">
+                <p class="btn-red solid">Pantai Parangtritis</p>
+                <p class="desc">
+                  Parangtritis merupakan objek wisata yang cukup terkenal di Yogyakarta selain objek pantai lainnya
+                  seperti Samas, Baron, Kukup, Krakal dan Glagah. Parangtritis mempunyai keunikan pemandangan yang
+                  tidak terdapat pada objek wisata lainnya yaitu selain ombak yang besar juga adanya gunung-gunung
+                  pasir di sekitar pantai, yang biasa disebut gumuk. Objek wisata ini sudah dikelola oleh pihak Pemkab
+                  Bantul dengan cukup baik, mulai dari fasilitas penginapan maupun pasar yang menjajakan souvenir khas
+                  Parangtritis.
+                </p>
+            </div>
+            <div class="box col-s-3 col-s-6">
+                <img src="goacina.jpg" class="image">
+                <p class="btn-red solid">Pantai Goa China</p>
+                <p class="desc">
+                  Pantai Goa Cina adalah sebuah pantai di pesisir selatan yang terletak di Dusun Tumpak Awu, Desa Sitiarjo,
+                  Kecamatan Sumbermanjing Wetan, Kabupaten Malang, Jawa Timur. Nama asli dari pantai ini adalah Pantai
+                  Rowo Indah. Namun karena pernah terjadi peristiwa kematian seorang Tionghoa yang sedang bertapa di dalam
+                  goa yang ada di kawasan pantai ini, nama Rowo Indah kalah popular dibandingkan dengan Goa Cina yang digunakan
+                  sampai sekarang. Tidak ada catatan resmi tahun berapa tragedi itu terjadi, tetapi warga sekitar pantai
+                  meyakini sekitar 20 tahunan silam.
+                </p>
+            </div>
+            <div class="box col-s-3 col-s-6">
+                <img src="sendangbiru.jpeg" class="image">
+                <p class="btn-red solid">Pantai Sendang Biru</p>
+                <p class="desc">
+                  Pantai Sendangbiru adalah sebuah pantai di pesisir selatan yang terletak di tepi Samudera Indonesia secara
+                  administratif berada di Dusun Sendangbiru, Desa Tambakrejo, Kecamatan Sumbermanjing Wetan, Kabupaten Malang,
+                  Jawa Timur. Pantai Sendangbiru merupakan salah satu wanawisata yang dimiliki oleh Perum Perhutani dan dikelola
+                  oleh KBM JLPL Unit II. Terletak di petak 81 dan 86 dengan luas baku 50 ha dan luas area manfaat 3 ha, RPH
+                  Sumber Agung, BKPH Sumbermanjing, KPH Malang termasuk kelas hutan lindung.
+                </p>
+            </div>
+            <div class="box col-s-3 col-s-6">
+                <img src="tigawarna.jpg" class="image">
+                <p class="btn-red solid">Pantai Tiga Warna</p>
+                <p class="desc">
+                  Pantai tiga warna memiliki keindahan alam yang masih terjaga, dikarenakan pantai ini masuk dalam wilayah konservasi
+                  hutan lindung. Di pantai ini banyak hal yang bisa dilakukan, mulai dari snorkeling di pantai 3 warna, camping, atau
+                  cuman bersantai menikmati keindahan alam. Terumbu karang dipantai 3 warna masih sangat terjaga, air lautnya pun bening,
+                  ditambah di sekitar pantai terdapat hutan lindung yang masih asri.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 footer">
+        &copy; Copyright by Dean
+    </div>
+  </body>
+</html>
